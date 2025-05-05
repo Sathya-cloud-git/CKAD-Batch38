@@ -276,7 +276,6 @@ chown $(id -u):$(id -g) $HOME/.kube/config
 ### Task 4: Joining a Cluster
 
 Paste the copied join token on both the worker nodes.
-![image](https://github.com/user-attachments/assets/9ade88ed-1a7f-4ef5-8700-7fbc2d12cdc3)
 
 **Note
 If you want to list and generate tokens again to join worker nodes, then follow the below steps(optional)
@@ -321,7 +320,7 @@ Now Verify:
 ```
 kubectl get pods -A -o wide
 ```
-![image](https://github.com/user-attachments/assets/455d4d49-9939-4ad8-9ccc-2cf6ec12892b)
+
 
 ### Task 6: Create Pods
 
