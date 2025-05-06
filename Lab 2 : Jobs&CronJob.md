@@ -1,5 +1,7 @@
 ## Jobs and Cronjobs in Kubernetes
-
+```
+sudo su
+```
 ### Task 1: Jobs in Kubernetes 
 ```
 vi job-pod.yaml
