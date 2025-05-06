@@ -127,7 +127,7 @@ To check the number of executions of the cronjobs
 ```
 kubectl describe cronjobs
 ```
-To edit the running cronjob
+To delete the running cronjob
 ```
 kubectl delete cronjob cronjob-hello
 ```
