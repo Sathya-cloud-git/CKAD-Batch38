@@ -30,6 +30,9 @@ kubectl apply -f job-pod.yaml
 kubectl get jobs
 ```
 ```
+kubectl describe jobs jobs-hello
+```
+```
 kubectl get pods
 ```
 
@@ -37,17 +40,28 @@ Read logs
 ```
 kubectl logs <name of jobpod>
 ```
-
-Describe the job
-```
-kubectl describe jobs jobs-hello
-```
 ```
 kubectl describe pod <pod-name>
 ```
 Delete the job
 ```
 kubectl delete -f job-pod.yaml
+```
+Recreate using the same file
+```
+ kubectl apply -f job-pod.yaml
+```
+View the jobs
+```
+ kubectl get jobs
+```
+View the pod created by the job
+```
+kubectl get pod
+```
+Delete the jobs
+```
+kubectl delete jobs jobs-hello
 ```
 
 ### Task 2: Cronjobs 
