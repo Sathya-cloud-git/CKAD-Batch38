@@ -37,6 +37,9 @@ kubectl exec -it sidecar-pod -c sidecar-container -- sh
 ``` 
 curl 'http://localhost:80/'
 ```
+```
+exit
+```
 
 
 ### Task 2: Init container
